@@ -25,3 +25,5 @@ app.get('/datPhim', (request, response) => {
 app.listen(3000, () => {
   console.log('ỨNG DỤNG CHẠY TRÊN CỔNG 3000')
 })
+
+module.exports = app;
