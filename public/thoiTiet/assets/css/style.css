@@ -1,0 +1,65 @@
+* {
+  color: white;
+}
+body{
+  background-image: linear-gradient(120deg, #052652 0%, #0C3B6A 18%, #2D9CDB 100%);
+  height: 100vh;
+  padding: 0px 60px;
+}
+.container-fluid{
+  height: 100%;
+}
+.main{
+  height: 100%;
+}
+#thongTinChung{
+  height: 264px;
+}
+.holder{
+  width: 64px;
+}
+#thongTinChung{
+  height: 264px;
+  border-bottom: 1px solid #ffffff42;
+  padding-bottom: 30px;
+}
+#duBaoNgay{
+  height: 161px;
+  max-height: 161px;
+  border-bottom: 1px solid #ffffff42;
+}
+#thongTinChung{
+  height: 271px;
+}
+
+#thongTinChung .row{
+  height: 100%;
+}
+.thongTinChung_section1{
+  border-right: 1px solid #ffffff42;
+}
+.thongTinChung_section1_temp h1{
+  font-size: 72px;
+  font-weight: bold;
+}
+.thongTinChung_section2_items{
+  font-size: 14px;
+}
+
+#city_name{
+  font-size: 56px;
+}
+
+#thongTinPhu {
+  padding: 24px 0
+}
+#thongTinPhu .item{
+  min-width: 228px;
+  max-width: 228px;
+  min-height: 271px;
+  max-height: 271px;
+
+  border-radius: 8px;
+
+  background-color: rgba(255, 255, 255, 0.159);
+}

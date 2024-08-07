@@ -1,0 +1,182 @@
+:root {
+    --main-white: #FFFFFF;
+    --main-pink: #FF00FF;
+}
+
+* {
+    /*  color: white;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.4s ease-in;
+}
+
+.html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--main-pink);
+    height: 100vh;
+    padding: 0px 60px;
+    margin: 0;
+}
+
+.main {
+    height: 100%;
+}
+
+.header {
+    padding: 1.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+a:hover {
+    color: #FF00FF;
+    cursor: pointer;
+    border-top: 0.3rem solid var(--main-pink);
+    border-bottom: 0.3rem solid var(--main-pink);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.danhmuc a {
+    font-size: 1rem;
+    margin: 0 1rem;
+    padding-left: 30px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons div {
+    color: #040404d8;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.icons div :hover {
+    color: turquoise;
+}
+
+.search-from {
+    position: absolute;
+    top: 20%;
+    right: -100%;
+    width: 30rem;
+    border: solid 1px black;
+    height: 4rem;
+}
+
+.search-from.active {
+    right: 7%;
+}
+
+.search-from input {
+    width: 50%;
+    height: 50%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border: none;
+    text-transform: none;
+}
+
+.search-from label {
+    color: black;
+    font-size: 1.3rem;
+    padding-right: 1.3rem;
+    cursor: pointer;
+}
+
+.kyx {
+    background-color: #f2dfe3;
+    height: 500px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content-text {
+    color: black;
+
+}
+
+.content-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #e6007e;
+}
+
+.content-text ul {
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.content-text ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.content-text ul li:before {
+    content: "\2713";
+    color: #e6007e;
+    margin-right: 10px;
+}
+
+.acm {
+    max-width: 100%;
+    height: 400px;
+    width: 600px;
+}
+
+.lich {
+    line-height: 2.25rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.dvn {
+
+    text-align: center;
+    align-items: center;
+}
+
+.asfs .dvn {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.imgghe {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.badge-tuoi {
+    background-color: #f0ad4e;
+}
+
+.fsgkn {
+    padding-top: 30px;
+}
+
+.avav {
+    display: flex;
+}
+
+.avd {
+    padding-top: 30px;
+}
